@@ -31,7 +31,9 @@ public class LoginTest {
 		driver.get("http://www.way2automation.com/angularjs-protractor/registeration/#/login");
 		driver.findElement(By.id("username")).sendKeys("angular");
 		driver.findElement(By.id("password")).sendKeys("password");
+		driver.findElement(By.id("signin")).click();
 		
+
 
 	}
 
